@@ -22,3 +22,7 @@
 .rating {
     box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
+.color-1{
+    color: linear-gradient(270.00deg, rgb(255, 0, 0) 0%, rgb(255, 137, 56) 100%);;
+}
