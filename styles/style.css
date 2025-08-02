@@ -4,3 +4,11 @@
 .manrope {
     font-family: "Manrope", sans-serif;
 }
+
+.dark{
+    color: #777777;
+}
+
+.btn-bg{
+    background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
+}
