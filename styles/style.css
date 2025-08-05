@@ -23,6 +23,11 @@
     box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-.color-1{
-    color: linear-gradient(270.00deg, rgb(255, 0, 0) 0%, rgb(255, 137, 56) 100%);;
+.color-1 {
+    color: linear-gradient(270.00deg, rgb(255, 0, 0) 0%, rgb(255, 137, 56) 100%);
+    ;
+}
+
+.feature-card {
+    background: linear-gradient(180.00deg, rgb(244, 244, 244), rgba(244, 244, 244, 0) 100%);
 }
