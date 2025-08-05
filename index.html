@@ -14,8 +14,8 @@
 
 <body class="manrope">
     <header>
-        <nav class="sm:flex sm:justify-center sm:items-center sm:gap-10 pt-10">
-            <div>
+        <nav class="sm:flex sm:justify-center sm:items-center sm:gap-10 sm:pt-10">
+            <div class="sm:block hidden">
                 <h1 class="text-[80px] font-extrabold">It's good<br>
                     tea time at The<br>Tea House</h1>
                 <p class="dark mt-[30px]">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your
@@ -25,14 +25,14 @@
                     class="sm:w-[200px] sm:flex sm:justify-center sm:items-center sm:gap-2 p-4 btn-bg rounded-lg text-xl font-bold text-white mt-[30px]">Explore
                     More <img src="images/arrow.png" alt=""></button>
             </div>
-            <div class="mt-25 border-2 border-dashed border-[#dbdbdb]">
+            <div class="sm:mt-25 border-2 border-dashed border-[#dbdbdb]">
                 <div class="relative">
                     <img src="images/banner.png" alt="">
                 </div>
                 <div
-                    class="w-[255px] sm:flex sm:justify-center sm:items-center sm:gap-3 rating px-6 py-4 absolute mt-[-110px] ml-[100px] bg-white rounded-lg">
+                    class="sm:w-[255px] sm:flex sm:justify-center sm:items-center sm:gap-3 rating px-6 py-4 absolute sm:mt-[-110px] sm:ml-[100px] bg-white rounded-lg text-center sm:text-left sm:block hidden">
                     <div>
-                        <i class="fa-solid fa-star text-orange-400 text-5xl"></i>
+                        <i class="fa-solid fa-star text-orange-400 sm:text-5xl text-[30px]"></i>
                     </div>
                     <div>
                         <h1 class="text-[30px] font-bold">5.00</h1>
@@ -40,12 +40,19 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <div class="sm:hidden text-center mt-6">
+                <h1 class="text-7xl font-extrabold">Tea House</h1>
+            </div>
+            <br>
+            <hr>
+            <hr>
         </nav>
     </header>
     <main>
         <!-- Feature section -->
-        <section class="mt-20">
-            <div class="text-center">
+        <section class="sm:mt-20">
+            <div class="text-center px-2">
                 <h1 class="text-[45px] font-extrabold">Our Featured Products</h1>
                 <p class="dark mt-7">There are many variations of passages of Lorem Ipsum available, but the majority
                     have suffered
@@ -53,30 +60,51 @@
                     in some<br>form, by injected humour, or randomised words which don't look even slightly believable.
                 </p>
             </div>
-            <div class="sm:flex sm:justify-center sm:gap-6 sm:mt-12">
+            <div
+                class="sm:flex sm:justify-center sm:flex-row sm:gap-6 sm:mt-12 flex flex-col justify-center items-center mt-6">
                 <div
-                    class="p-8 sm:w-[267px] feature-card rounded-lg sm:flex sm:justify-center sm:items-center sm:flex-col">
+                    class="p-8 w-[267px] feature-card rounded-lg sm:flex sm:justify-center sm:items-center sm:flex-col flex flex-col justify-center items-center">
                     <img class="border-2 border-dashed border-[#dbdbdb]" src="images/tea-1.png" alt="">
                     <h1 class="text-2xl font-extrabold mt-7">Milk Tea</h1>
                     <p class="dark font-semibold text-center mt-4">Creamer could be replaced by fresh milk</p>
                 </div>
                 <div
-                    class="p-8 sm:w-[267px] feature-card rounded-lg sm:flex sm:justify-center sm:items-center sm:flex-col">
+                    class="p-8 w-[267px] feature-card rounded-lg sm:flex sm:justify-center sm:items-center sm:flex-col flex flex-col justify-center items-center">
                     <img class="border-2 border-dashed border-[#dbdbdb]" src="images/tea-2.png" alt="">
                     <h1 class="text-2xl font-extrabold mt-7">Black Tea</h1>
                     <p class="dark font-semibold text-center mt-4">Creamer could be replaced by fresh milk</p>
                 </div>
                 <div
-                    class="p-8 sm:w-[267px] feature-card rounded-lg sm:flex sm:justify-center sm:items-center sm:flex-col">
+                    class="p-8 w-[267px] feature-card rounded-lg sm:flex sm:justify-center sm:items-center sm:flex-col flex flex-col justify-center items-center">
                     <img class="border-2 border-dashed border-[#dbdbdb]" src="images/tea-3.png" alt="">
                     <h1 class="text-2xl font-extrabold mt-7">Lemon Tea</h1>
                     <p class="dark font-semibold text-center mt-4">Creamer could be replaced by fresh milk</p>
                 </div>
                 <div
-                    class="p-8 sm:w-[267px] feature-card rounded-lg sm:flex sm:justify-center sm:items-center sm:flex-col">
+                    class="p-8 w-[267px] feature-card rounded-lg sm:flex sm:justify-center sm:items-center sm:flex-col flex flex-col justify-center items-center">
                     <img class="border-2 border-dashed border-[#dbdbdb]" src="images/tea-4.png" alt="">
                     <h1 class="text-2xl font-extrabold mt-7">Green Tea</h1>
                     <p class="dark font-semibold text-center mt-4">Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advertise section -->
+        <section class="hidden">
+            <div>
+                <div>
+
+                </div>
+                <div>
+                    <h1>Great Tea, Freshly Presented</h1>
+                    <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions .
+                        It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been
+                        deeply appreciated by its custoers because of good words of mouth and unique customized service
+                        orginated from Taiwan.</p>
+                    <h2>Unique Taste</h2>
+                    <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                    <h2>Premium Quality</h2>
+                    <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
                 </div>
             </div>
         </section>
