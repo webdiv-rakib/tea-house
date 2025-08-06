@@ -31,3 +31,7 @@
 .feature-card {
     background: linear-gradient(180.00deg, rgb(244, 244, 244), rgba(244, 244, 244, 0) 100%);
 }
+
+.client-bg {
+    background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%, rgb(255, 137, 56) 100%);
+}
