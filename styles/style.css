@@ -35,3 +35,11 @@
 .client-bg {
     background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%, rgb(255, 137, 56) 100%);
 }
+
+.footer-bg {
+    background: linear-gradient(270.00deg, rgba(255, 0, 0, 0.1), rgba(255, 137, 56, 0.1) 100%);
+}
+
+.get-started-bg {
+    background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%, rgb(255, 137, 56) 100%);
+}
